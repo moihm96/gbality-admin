@@ -1,0 +1,120 @@
+export const products = [
+  {
+    name: "No Future Dreaming of you",
+    subName: "No hay futuro soñado contigo",
+    initialImage: "/images/NoFutureInitial.jpg",
+    images: [
+      "images/NoFutureFront.jpg",
+      "/images/NoFutureReverse.jpg",
+      "/images/NoFutureSmall.jpg",
+    ],
+    category: "Camisetas",
+    description:
+      "Años 80 donde solíamos ver aquellas modas tan increíbles con colores atrevidos, series que enganchaban como el principe de Bel-Air. Un diseño hiphop under, limited edition",
+    price: 35.99,
+    countInStock: 10,
+  },
+  {
+    name: "Angel Baby",
+    subName: "Angel Bebe",
+    images: ["/images/AngelBabyInitial.jpg"],
+    initialImage: "/images/AngelBabyInitial.jpg",
+    category: "Camisetas",
+    description:
+      "Lo gótico se apodera de este drop dando paso al misterio y algo mas dark dentro de nuestra marca",
+    price: 35.99,
+    countInStock: 10,
+  },
+  {
+    name: "Fucking Love",
+    images: [
+      "/images/FuckingLoveFront.jpg",
+      "/images/FuckingLoveReverse.jpg",
+      "/images/FuckingLoveDouble.jpg",
+      "/images/FuckingLoveInsta.jpg",
+    ],
+    initialImage: "images/FuckingLoveInitial.jpg",
+    subName: "Maldito amor, YOUNG & STUPID",
+    category: "Camisetas",
+    description:
+      "Referencia a 3 canciones de Travis Mills, Young & Stupid, Go for it all y Jessica. El desamor se apodera de este diseño urbano y meditabundo",
+    price: 35.99,
+    countInStock: 10,
+  },
+  {
+    name: "Stop Love",
+    initialImage: "images/StopLovexLoveInitial.jpg",
+    images: ["/images/StopeLoveFront.jpg", "/images/StopeLoveReverse.jpg"],
+    subName: "Amor parado",
+    category: "Camisetas",
+    description:
+      "Insipiración en un cúpido paralizado, cansado, desesperado por no conseguir su objetivo de devolver el amor a las personas. Diseño inspirado en las pausas del amor en las personas.",
+    price: 35.99,
+    countInStock: 10,
+  },
+  {
+    name: "Love Pain",
+    initialImage: "images/LovePainFront.jpg",
+    images: ["/images/LovePaintFront.jpg", "/images/LovePaintReverse.jpg"],
+    subName: "Dolor de amor",
+    category: "Camisetas",
+    description:
+      "La muerte y el dolor del amor hacen de inspiracion en este diseño donde la muerte y el amor hacen una simbiosis para representar el dolor del amor que se va y no vuelve",
+    price: 35.99,
+    countInStock: 10,
+  },
+  {
+    name: "I'm tired of being Tired x No more Fake Friends",
+    initialImage: "images/TiredOfBeingTired.jpg",
+    images: ["images/TiredOfBeingTired.jpg", "images/TiredOfNoMore.jpg"],
+    subName: "Cansado de estar cansado x No mas amigos falsos",
+    category: "Camisetas",
+    description: "",
+    price: 35.99,
+    countInStock: 10,
+  },
+  {
+    name: "Hope in the Love",
+    initialImage: "images/HopeInLove.jg",
+    images: [
+      "images/HopeInLove.jg",
+      "images/HopeInLoveDouble.jg",
+      "images/HopeInLoveReverse.jg",
+    ],
+    subName: "Esperanza en el amor",
+    category: "Camisetas",
+    description:
+      "La esperanza en el amor y en la humanidad sigue viva con este diseño con los colores mas básicos de GBality sirve de inspiración para el mundo en un diseño único.",
+    price: 35.99,
+    countInStock: 10,
+  },
+  {
+    name: "Sports by Gbality",
+    initialImage: "images/SportHorizontal.jpg",
+    images: [
+      "images/SportFrontLogo.jpg",
+      "images/SportVertical.jpg",
+      "images/SportCenterLogo.jpg",
+      "images/SportSet.jpg",
+      "images/SportSmallLogo.jpg",
+      "images/SportHorizontal.jpg",
+    ],
+    subName: "",
+    category: "Camisetas",
+    description:
+      "Un diseño convencional adaptado a todos los públicos pero con la esencia y exclusividad de gbality.",
+    price: 35.99,
+    countInStock: 10,
+  },
+  {
+    name: "Canary Islands World Wide",
+    initialImage: "images/CanaryIslands.jpg",
+    images: ["images/CanaryIslands.jpg", "images/CanaryWorldWide.jpg"],
+    subName: "Por y para ustedes 922-928",
+    category: "Camisetas",
+    description:
+      "Por y para ustedes, por los canarios, y por los que sienten los colores aún no teniendo sangre canaria, porque canario, somos los que sentimos los colores de nuestra región.",
+    price: 35.99,
+    countInStock: 10,
+  },
+];
